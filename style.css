@@ -1,0 +1,382 @@
+/* Cascading Style Sheet */
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.top {
+	background-color: #3B5D50;
+	justify-content: center;
+
+	height: 550px;
+}
+
+/********** Navigation Starts **********/
+.nav {
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	width:100%;
+}
+
+.nav h1{
+	color: white;
+	font-weight: mideum;
+	margin-top: 15px;
+	margin-left: 18%;
+}
+
+.nav ul{
+	list-style-type: none;
+	margin: 20px;
+	padding: 0;
+	overflow: auto;
+}
+
+.nav li {
+	float: left;
+	margin-left: 1%;
+}
+.nav li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #aaa;
+	padding: 15px 16px; 
+}
+
+.nav li a:hover, a:active {
+	color: #ffffff;
+	border-bottom: 4px solid yellow;
+	margin-bottom: 2%;
+
+}
+
+/********** Navigation Ended **********/
+
+/********** Gallary Starts **********/
+
+
+.gallary {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 20px;
+}
+
+.gallary .quotes{
+	margin:5%;
+	width: 50%;
+	margin-left: 20%;
+}
+
+.gallary .quotes h1{
+	font-size: 250%;
+	color: white;
+}
+
+.gallary .quotes p{
+	color: #aaa;
+	font-size: 90%;
+}
+
+.gallary .quotes .shop{
+	font-size: 90%;
+	background-color:#F8B810;
+	border: none;
+	color: #444;
+	padding: 15px 22px;
+	margin: 4px 2px;
+	border-radius: 50px;
+}
+
+.gallary .quotes .shop:hover{
+	background-color:#fff;
+	color: #3B5D50;
+}
+
+.gallary .quotes .exp{
+	font-size: 90%;
+	background-color: transparent;
+	border: 2px solid #aaa;
+	color: #aaa;
+	padding: 15px 22px;
+	margin: 4px 2px;
+	border-radius: 50px;
+}
+
+.gallary .quotes .exp:hover{
+	border-color: #fff;
+	color: #fff;
+}
+
+.bnr {
+	width:100%;
+	
+}
+
+.bnr img {
+	width: 620px;
+	height: auto;
+}
+
+/********** Gallary Ended **********/
+
+/********** Post Section Strats **********/
+
+.post {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin: 2%;
+	margin-top: 100px;
+}
+
+.post div{
+	padding: 20px;
+	border-radius: 25px;
+}
+
+
+.post div:hover{
+	background-color:#eee;
+	border-radius: 25px;
+}
+
+.post h1 {
+	font-size: 220%;
+	color: #333;
+}
+
+.post p {
+	font-size: 95%;
+	color: #333;
+}
+
+.post button{
+	font-size: 90%;
+	background-color:#333;
+	border: none;
+	color: #fff;
+	padding: 15px 22px;
+	margin: 4px 2px;
+	border-radius: 50px;
+}
+
+.post button:hover{
+	background-color:#fff;
+	color: #000;
+	border: 2px solid black;
+}
+
+.post img{
+	width: 80%;
+	height: auto;
+	margin-left: 20px;
+}
+
+.post .price {
+	font-size: 18px;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.post h2 {
+	font-size: 16px;
+	text-align: center;
+}
+
+/********** Post Section Ended **********/
+
+/********** Login Form Starts **********/
+
+.login {
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	margin-top: 15%;
+}
+
+.login div{
+	margin: auto;
+	padding: auto;
+	text-align: center;
+	width: 500px;
+	height: 450px;
+}
+
+.login .lform{
+	background-color: #eee;
+	border: none;
+	border-radius: 25px;
+}
+
+.login .lform h1{
+	font-size: 50px;
+}
+
+.login .lform #user, #pwd{
+	width: 200px;
+	height: 30px;
+	margin: 3px;
+	border: none;
+	border-bottom: 1px solid #444;
+	background-color: #eee;
+}
+
+.login .lform button{
+	margin-top: 10px;
+	width: 200px;
+	height: 30px;
+	border: 2px outset #ddd;
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+.login .lform button:hover{
+	border: 2px inset #ddd;
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+.login .lform a:link, a:visited{
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 8px;
+	text-align: center;
+	color: #666;
+	border: none;
+}
+
+.login .lform a:hover, a:active{
+	color: #222;
+	border: none;
+}
+
+.login .lform h2{
+	font-size: 12px;
+	text-align: center;
+	height: 20px;
+	margin-top: 20px;
+}
+
+/********** Login Form Ended **********/
+
+/********** SignUp Form Starts **********/
+
+.signup_body{
+	background-color:#eee;
+
+}
+
+.signup {
+	margin:10%;
+	background-color: #fff;
+	padding: 30px;
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	border-radius: 20px;
+}
+
+.signup h1{
+	text-align:center;
+	font-size: 30px;
+	padding-bottom: -0px;
+	margin-bottom: -0px;
+}
+
+.signup h2{
+	text-align:center;
+	padding-top: 2px;
+	margin-top: -0px;
+	padding-bottom: 30px;
+	font-size: 14px;
+}
+
+.sform {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-bottom: 50px;
+}
+
+#submit {
+	display:flex;
+	justify-content: center;
+	width: 250px;
+	height: 50px;
+	margin: auto;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+	border: none;
+	background-color: #20c050;
+	border-radius: 10px;
+}
+
+#submit:hover{
+	background-color:#208050;
+}
+
+#fname, #lname{
+	width: 230px;
+	height: 30px;
+	border: 1px outset ;
+	border-radius: 5px;
+	background-color: transparent;
+	margin: 10px;
+}
+
+.sform p #male, #female{
+	margin-left: 15px;
+}
+
+.sform #date, #month{
+	width: 80px;
+	height: 25px;
+	margin: 5px;
+	border: 1px inset;
+	border-radius: 5px;
+	background-color: transparent;
+	
+}
+
+.sform #year{
+	width: 200px;
+	height: 25px;
+	margin: 5px;
+	border: 1px outset;
+	border-radius: 5px;
+	background-color: transparent;
+}
+
+.sform #email, #ph{
+	width: 230px;
+	height: 30px;
+	margin: 10px;
+	border: 1px outset;
+	border-radius: 5px;
+	background-color: transparent;
+}
+
+.sform #address{
+	width: 350px;
+	height: 25px;
+	margin: 5px;
+	border: 1px outset;
+	border-radius: 5px;
+}
+
+.sform #city, #dist, #state, #zip{
+	width: 100px;
+	height: 20px;
+	display: block;
+	border: 1px outset;
+	border-radius: 5px;
+}
+
+/*
+.add{
+	display: float;
+}
+*/
+
+/********** SignUp Form Starts **********/
